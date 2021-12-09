@@ -6,7 +6,7 @@ PLAYit is Audio media Player build using kotlin.The goal of this project is to i
 
 
 ##### Download APK
-<img src="https://imcsa.org.za/wp-content/uploads/2019/07/100-1009816_png-images-buttons-download-red-download-button-png.jpg" width="300"><a href="https://github.com/chintanmarvaniya1/Daily-News/raw/master/DailyNews.apk"></a></img>
+<img src="https://imcsa.org.za/wp-content/uploads/2019/07/100-1009816_png-images-buttons-download-red-download-button-png.jpg" width="300"><a href="https://github.com/chintanmarvaniya1/PLAYit/blob/master/PLAYit.apk?raw=true"></a></img>
 
 
 ### Screenshot
