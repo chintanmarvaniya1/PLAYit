@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PLAYit" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/orange</item>
+        <item name="colorSecondaryVariant">@color/gray1</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="TabLayout" parent="TextAppearance.Design.Tab">
+        <item name="android:fontFamily">@font/alice_regular</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:color">@color/white</item>
+    </style>
+
+    <style name="SongName" parent="">
+        <item name="android:fontFamily">@font/alegreya_variablefont_wght</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:color">@color/white</item>
+    </style>
+
+    <style name="ArtistName" parent="">
+        <item name="android:fontFamily">@font/alegreya_variablefont_wght</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:color">@color/orange</item>
+    </style>
+
+
+    <style name="RoundedCorner" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">18%</item>
+        <item name="color">@color/black</item>
+    </style>
+
+    <style name="searchButtonStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:background">@color/white</item>
+        <item name="background">@color/white</item>
+    </style>
+</resources>

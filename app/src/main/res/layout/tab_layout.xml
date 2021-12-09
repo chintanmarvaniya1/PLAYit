@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tlMyTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        app:tabIndicatorColor="@color/orange"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/orange"
+        app:tabTextAppearance="@style/TabLayout"
+        app:tabTextColor="@color/white">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tiTrack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tracks" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tiAlbum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="100dp"
+            android:text="Albums" />
+
+
+    </com.google.android.material.tabs.TabLayout>
+
+
+</LinearLayout>
